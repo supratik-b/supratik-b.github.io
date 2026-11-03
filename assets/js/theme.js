@@ -23,7 +23,6 @@
     if (button) {
       button.setAttribute("aria-label", `Switch to ${next} mode`);
       button.title = `Switch to ${next} mode`;
-      button.querySelector(".theme-label").textContent = `${next === "dark" ? "Dark" : "Light"} mode`;
       button.hidden = false;
     }
   }
