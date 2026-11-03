@@ -2,6 +2,6 @@ title: Supratik Bhattacharya
 url: "https://supratik-bhattacharya-2020.github.io"
 baseurl: "/supratik_portfolio"
 #logo: /assets/img/headshot_circle.png
-#description: text below image
+description: Research in language-model evaluation, reliable retrieval, and efficient, tool-using models.
 show_downloads: false
 theme: jekyll-theme-minimal
