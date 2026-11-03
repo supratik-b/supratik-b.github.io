@@ -97,6 +97,9 @@ h2 { font-size: 1.4rem; font-weight: 500; line-height: 1.4; letter-spacing: -0.0
 .timeline-item, .education-entry { display: grid; grid-template-columns: 152px minmax(0, 1fr); gap: 24px; }
 .timeline-item + .timeline-item { margin-top: 23px; }
 .timeline-date { padding-top: 2px; color: var(--muted); font-size: 0.78rem; font-variant-numeric: tabular-nums; }
+.timeline-content { display: grid; grid-template-columns: 24px minmax(0, 1fr); column-gap: 12px; }
+.timeline-content > h3, .timeline-content > p { grid-column: 2; }
+.workplace-logo { grid-column: 1; grid-row: 1 / span 3; width: 24px; height: 24px; object-fit: contain; }
 .timeline-content h3, .education-entry h3 { font-size: 0.98rem; line-height: 1.5; font-weight: 600; }
 .timeline-role { margin-top: 2px; color: var(--muted); font-size: 0.86rem; }
 .timeline-content > p:last-child { margin-top: 5px; font-size: 0.9rem; }
@@ -153,7 +156,8 @@ h2 { font-size: 1.4rem; font-weight: 500; line-height: 1.4; letter-spacing: -0.0
   .container { width: 100%; }
   .site-header { padding-top: 0; }
   .about { display: block; }
-  .profile-photo { display: none; }
+  .profile-photo, .workplace-logo { display: none; }
+  .timeline-content { display: block; }
   .theme-toggle, .skip-link, .section-link, .site-footer { display: none !important; }
   .section, .contact-section { margin-top: 20px; }
   .section-heading, h2 { break-after: avoid; }
