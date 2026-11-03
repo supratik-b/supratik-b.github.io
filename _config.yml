@@ -1,5 +1,7 @@
 title: Supratik Bhattacharya
+url: "https://supratik-bhattacharya-2020.github.io"
+baseurl: "/supratik_portfolio"
 #logo: /assets/img/headshot_circle.png
 #description: text below image
-show_downloads: true
+show_downloads: false
 theme: jekyll-theme-minimal
