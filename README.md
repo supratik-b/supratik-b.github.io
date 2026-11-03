@@ -4,9 +4,12 @@ Academic website: https://supratik-b.github.io/
 
 - `index.html`: research, publications, experience, education, and contact details.
 - `assets/css/site.css`: responsive layout and visual styling.
+- `assets/js/theme.js`: light/dark mode, system preference, and a saved user choice.
+- `assets/img/profile.png`: the supplied profile photograph.
 - `assets/pdf/Supratik_Bhattacharya_CV.pdf`: downloadable CV.
 
-The homepage uses plain HTML and CSS, with no JavaScript or external font dependencies.
+The homepage uses plain HTML and CSS with system fonts. A small script controls the
+theme; without JavaScript, the site still works and follows the device's color scheme.
 GitHub Pages publishes the root of `main` as the organization's website.
 The author's personal GitHub profile remains `supratik-bhattacharya-2020`.
 
